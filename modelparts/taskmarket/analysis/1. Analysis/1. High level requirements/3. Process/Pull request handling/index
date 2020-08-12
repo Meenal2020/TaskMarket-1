@@ -1,0 +1,26 @@
+<index xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:zenta="http://magwas.rulez.org/zenta">
+   <entry name="Pull request handling" id="bf6d8bb9-8ef1-425a-86a9-b2b1ab769b46"/>
+   <entry name="associate pull request to task"
+          id="38183e57-4dbc-43e3-bc2a-68b13091db6e"/>
+   <entry name="handle merged pull request"
+          id="f40843ff-1955-4251-b104-b8b7f48c7463"/>
+   <entry name="unassign pull request" id="def09845-52b2-4566-9860-9550a980b550"/>
+   <entry name=";One,Entity,Repo;" id="f1ca6a55-feaf-4b76-b0bc-f0a894628e88"/>
+   <entry name=";One,Entity,Repo;" id="8142f0b3-b261-424d-9318-803e19e7558d"/>
+   <entry name=";One,DTO,Interface;" id="79bec90a-4768-4532-a871-65733945b816"/>
+   <entry name=";One,Entity,Repo;" id="522c208d-ad92-4f47-9b01-7298f5cfceda"/>
+   <entry name=";One,DTO,Interface;" id="c11dfe53-23fe-4844-a89e-b470fe6ce807"/>
+   <entry name=";One,Entity,Repo;" id="72336e7a-7c20-4897-973a-1b4c42d829cb"/>
+   <entry name=";One,Entity,Repo;" id="fc674b64-77ad-419d-ae8b-fd8a038c3ef6"/>
+   <entry name=";One,DTO,Interface;" id="d46eb359-14d0-43bc-815d-62a51aca3fe5"/>
+   <entry name="check pull requests state"
+          id="e8fce0af-e101-47ab-8704-7dd1634639b0"/>
+   <entry id="6668234e-f241-4858-a83f-30aba1f80599"/>
+   <entry id="8f06e91c-5768-40ca-a821-b9ab246ab967"/>
+   <entry id="260dea1d-0169-48b0-a129-b0ce55e99905"/>
+   <entry id="5d4a00ff-1960-4f86-9b57-44a64ddf0fe5"/>
+   <entry name=";Ordered,Entity,Repo;" id="f7db33d8-aa8a-4100-a8cd-c568c5d1c720"/>
+   <entry name=";Ordered,Entity,Repo;" id="3da62e3c-47f6-4b59-b152-c99fec84a07b"/>
+   <entry id="a2029f1a-df49-46ab-b061-e433f4432578"/>
+</index>

@@ -1,0 +1,8 @@
+<element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:zenta="http://magwas.rulez.org/zenta"
+         xsi:type="zenta:BasicObject"
+         name="check pull requests state"
+         id="e8fce0af-e101-47ab-8704-7dd1634639b0"
+         ancestor="83af8497-bfef-451b-9bc6-f00d58c8df6a">
+   <documentation>It is a timed process step</documentation>
+</element>

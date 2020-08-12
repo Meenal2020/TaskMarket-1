@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.Set;
 
+import org.json.JSONException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -27,7 +28,7 @@ public class UpdateProjectModelControllerUpdateMilestonesTest
 
   @Test
   @DisplayName("The project with updated milestones is saved successfully")
-  public void test() {
+  public void test() throws JSONException {
     updateProjectModelController
         .call(ProjectModelDTOTestData.get(), ProjectTestData.NAME);
     Mockito.verify(projectEntityRepository)
@@ -36,13 +37,13 @@ public class UpdateProjectModelControllerUpdateMilestonesTest
 
   @Test
   @DisplayName("The milestones of the project are updated successfully")
-  public void test1() {
+  public void test1() throws JSONException {
     ProjectEntityRepositoryStubs.behaviour(projectEntityRepository);
     updateProjectModelController
         .call(ProjectModelDTOTestData.get(), ProjectTestData.NAME);
     assertEquals(
         ProjectModelDTOTestData.get().getMilestone(),
-        Set.of(MilestoneTestData.ID)
+        Set.of(MilestoneDTOTestData.get())
     );
 
   }

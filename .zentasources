@@ -1,4 +1,4 @@
 <sources>
-	<source name="metamodel" type="github" repo="kode-konveyor/metamodel" path="modelparts/metamodel" branch="4.4"/>
+	<source name="metamodel" type="github" repo="kode-konveyor/metamodel" path="modelparts/metamodel" branch="model/frontend_ui"/>
 	<source name="taskmarket" type="folder" uri="modelparts/taskmarket"/>
 </sources>

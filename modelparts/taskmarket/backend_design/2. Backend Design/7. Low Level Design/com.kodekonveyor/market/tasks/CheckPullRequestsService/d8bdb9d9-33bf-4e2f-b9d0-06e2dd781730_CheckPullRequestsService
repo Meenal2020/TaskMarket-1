@@ -1,0 +1,6 @@
+<element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:zenta="http://magwas.rulez.org/zenta"
+         xsi:type="zenta:BasicObject"
+         name="CheckPullRequestsService"
+         id="d8bdb9d9-33bf-4e2f-b9d0-06e2dd781730"
+         ancestor="service"/>

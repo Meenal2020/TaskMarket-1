@@ -4,7 +4,7 @@ import java.util.Set;
 
 import javax.annotation.Generated;
 
-import com.kodekonveyor.market.tasks.TaskTestData;
+import com.kodekonveyor.market.tasks.TaskDTOTestData;
 
 @Generated("by zenta-tools")
 public class ProjectModelDTOTestData {
@@ -12,10 +12,20 @@ public class ProjectModelDTOTestData {
   public final static ProjectModelDTO get() {
     final ProjectModelDTO projectModelDTO = new ProjectModelDTO();
     projectModelDTO.setId(ProjectModelTestData.ID);
-    projectModelDTO.setTask(Set.of(TaskTestData.ID));
-    projectModelDTO.setMilestone(Set.of(MilestoneTestData.ID));
+    projectModelDTO.setTask(Set.of(TaskDTOTestData.get()));
+    projectModelDTO.setMilestone(Set.of(MilestoneDTOTestData.get()));
 
     return projectModelDTO;
   };
 
+  public final static ProjectModelDTO getTwoTasks() {
+    final ProjectModelDTO projectModelDTO = new ProjectModelDTO();
+    projectModelDTO.setId(ProjectModelTestData.ID);
+    projectModelDTO.setTask(
+        Set.of(TaskDTOTestData.get(), TaskDTOTestData.getDifferentTask())
+    );
+    projectModelDTO.setMilestone(Set.of(MilestoneDTOTestData.get()));
+
+    return projectModelDTO;
+  };
 }

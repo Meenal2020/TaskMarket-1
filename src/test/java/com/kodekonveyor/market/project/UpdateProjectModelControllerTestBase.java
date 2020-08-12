@@ -7,6 +7,10 @@ import org.slf4j.Logger;
 
 import com.kodekonveyor.authentication.AuthenticatedUserService;
 import com.kodekonveyor.authentication.AuthenticatedUserServiceStubs;
+import com.kodekonveyor.market.register.MarketUserEntityRepository;
+import com.kodekonveyor.market.register.MarketUserEntityRepositoryStubs;
+import com.kodekonveyor.market.tasks.TaskEntityRepository;
+import com.kodekonveyor.market.tasks.UpdateTasksService;
 
 public class UpdateProjectModelControllerTestBase {
 
@@ -25,10 +29,20 @@ public class UpdateProjectModelControllerTestBase {
   @Mock
   AuthenticatedUserService authenticatedUserService;
 
+  @Mock
+  MarketUserEntityRepository marketUserEntityRepository;
+
+  @Mock
+  UpdateTasksService updateTasksService;
+
+  @Mock
+  TaskEntityRepository taskEntityRepository;
+
   @BeforeEach
   void setUp() {
     ProjectEntityRepositoryStubs.behaviour(projectEntityRepository);
     MilestoneEntityRepositoryStubs.behaviour(milestoneEntityRepository);
     AuthenticatedUserServiceStubs.projectManager(authenticatedUserService);
+    MarketUserEntityRepositoryStubs.behaviour(marketUserEntityRepository);
   }
 }

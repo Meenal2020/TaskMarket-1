@@ -213,11 +213,6 @@
           zentaElement="5877a236-16bf-415c-aca7-747112c7e670">
       <bounds x="942" y="384" width="-1" height="-1"/>
       <sourceConnection xsi:type="zenta:Connection"
-                        id="27b4af08-ada8-4a5f-b564-c2af8edc89ce"
-                        source="f01c566f-af6c-442a-b5a6-c65bfe872298"
-                        target="80164052-08df-48e4-929a-90d54f51b285"
-                        relationship="1cac60d6-8e86-41b1-83d0-a28b64583cfa"/>
-      <sourceConnection xsi:type="zenta:Connection"
                         id="384f46b1-48b2-4441-8aa4-9a8ed7297993"
                         source="f01c566f-af6c-442a-b5a6-c65bfe872298"
                         target="f7c4b970-428f-4ffb-91a9-8413fe2edd69"
@@ -230,7 +225,7 @@
    </child>
    <child xsi:type="zenta:DiagramObject"
           id="80164052-08df-48e4-929a-90d54f51b285"
-          targetConnections="27b4af08-ada8-4a5f-b564-c2af8edc89ce 1aafc591-362d-401f-8471-15f1faba97fb"
+          targetConnections="1aafc591-362d-401f-8471-15f1faba97fb"
           zentaElement="383970bb-c6a0-4321-b961-41f8bb4aaeef">
       <bounds x="1098" y="384" width="-1" height="-1"/>
       <sourceConnection xsi:type="zenta:Connection"

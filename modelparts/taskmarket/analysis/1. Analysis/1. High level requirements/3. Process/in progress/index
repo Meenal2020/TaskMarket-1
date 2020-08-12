@@ -5,8 +5,6 @@
           id="c8ddeafc-def8-4a87-ba7d-bddda0cc2cf9"/>
    <entry name="End payment order" id="43711cfd-a53a-43de-aa20-6daf57ea0a94"/>
    <entry name="Enter bill" id="12d40b3c-3e04-4ddf-97f9-ae965592a7f4"/>
-   <entry name="handle merged pull request"
-          id="f40843ff-1955-4251-b104-b8b7f48c7463"/>
    <entry name="Issue futures order" id="b47551db-1612-4cea-8118-78f22bb4066b"/>
    <entry name="Leave payment order" id="bf1953fd-9e0e-4837-9900-6b70fece4978"/>
    <entry name="maintain legal forms" id="be346018-ed80-4947-975d-16f4d2d3ade2"/>
@@ -15,9 +13,6 @@
    <entry name="make futures deal" id="b03e5098-4559-4e3e-aecc-8d5b03153aaa"/>
    <entry name="Offer future work" id="74219758-1ec0-4e76-974f-4366b1033aa3"/>
    <entry name="Payout" id="e72adcce-0d43-481e-a3fc-05f0f8489dde"/>
-   <entry name="unassign pull request" id="def09845-52b2-4566-9860-9550a980b550"/>
-   <entry name="associate pull request to task"
-          id="38183e57-4dbc-43e3-bc2a-68b13091db6e"/>
    <entry name="in progress" id="eacf1b41-9c48-449a-a774-85cc4b47b64e"/>
    <entry name="record mentoring session dates"
           id="9fb6710c-3599-4575-b128-a1a71882d757"/>
@@ -36,4 +31,7 @@
    <entry id="e780544d-6ccf-4ca9-879b-a065855baa99"/>
    <entry id="2cf4bb18-05a7-4a95-b7ad-daba05652643"/>
    <entry id="dcf9b0c8-564e-4169-9e56-58cf5685e6ad"/>
+   <entry id="c9030fca-6d24-4040-bb94-43e5104cc7d4"/>
+   <entry id="48927ac0-ef78-4f8a-98d9-442e61bb446c"/>
+   <entry id="9087bf16-ee78-44c6-9f9f-9357f52d410e"/>
 </index>

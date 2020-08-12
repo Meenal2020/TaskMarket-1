@@ -1,0 +1,6 @@
+<element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:zenta="http://magwas.rulez.org/zenta"
+         xsi:type="zenta:BasicObject"
+         name="MergedPullRequestService"
+         id="ffce0a03-87cc-4140-b829-3e06956a65aa"
+         ancestor="service"/>

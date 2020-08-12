@@ -2,4 +2,6 @@
        xmlns:zenta="http://magwas.rulez.org/zenta">
    <entry name="Detect and pay completed tasks"
           id="d25cade8-c55b-45d2-bbab-a8bd60dd240f"/>
+   <entry id="de8ee179-1218-4c22-a874-98477d8ae0ce"/>
+   <entry id="ebd5b484-1443-4dd6-9af9-69cefc551730"/>
 </index>

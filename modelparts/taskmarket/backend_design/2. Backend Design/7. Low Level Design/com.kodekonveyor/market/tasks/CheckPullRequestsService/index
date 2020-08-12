@@ -1,0 +1,10 @@
+<index xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:zenta="http://magwas.rulez.org/zenta">
+   <entry name="CheckPullRequestsService"
+          id="0806c969-a43c-4fd9-9cfb-a80750b70363"/>
+   <entry name="CheckPullRequestsService"
+          id="d8bdb9d9-33bf-4e2f-b9d0-06e2dd781730"/>
+   <entry id="43e48838-a979-4778-af42-b93f1d8dd1fd"/>
+   <entry id="02f173e0-2c87-4223-80ac-f2fdbcbaa26e"/>
+   <entry id="eb44fd31-dff9-4fa4-89d7-5a0227518408"/>
+</index>

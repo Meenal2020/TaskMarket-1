@@ -1,0 +1,6 @@
+<element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:zenta="http://magwas.rulez.org/zenta"
+         xsi:type="zenta:BasicObject"
+         name="unassign pull request"
+         id="def09845-52b2-4566-9860-9550a980b550"
+         ancestor="83af8497-bfef-451b-9bc6-f00d58c8df6a"/>

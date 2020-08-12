@@ -15,6 +15,17 @@
    <folder name="GrabTaskController" id="247844b8-7dde-4592-a736-adbaea85603d"/>
    <folder name="CountUpForGrabTasksService"
            id="63bc6d04-a4f5-428b-a401-5574003da848"/>
+   <folder name="CheckPullRequestsService"
+           id="4c2186c7-bd10-43a8-9dbc-e986de815d66"/>
+   <folder name="MergedPullRequestService"
+           id="6171667e-4d22-47ff-9c76-89cb756b646c"/>
+   <folder name="AssignPullRequestService"
+           id="ac21bb61-cc94-4947-af49-d6a77c190525"/>
+   <folder name="UnassignPullRequestService"
+           id="a8841eab-f47b-46c4-9b42-ddeb070ba2b3"/>
    <entry name="tasks" id="3fa1619e-693f-43ce-ae1e-d739b848a1ed"/>
    <entry name="tasks" id="c234c0e4-fc77-48dc-87b4-5ef8a228dd1f"/>
+   <entry id="380199b0-796c-4e82-8690-f7adc28b311a"/>
+   <entry id="5e0a6ee8-37ae-46cc-981e-d903cf886c25"/>
+   <entry id="73d82169-10cc-4cd2-864c-22ad67d8231a"/>
 </index>

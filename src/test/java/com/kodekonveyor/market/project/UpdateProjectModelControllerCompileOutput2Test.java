@@ -2,6 +2,7 @@ package com.kodekonveyor.market.project;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.json.JSONException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -26,7 +27,7 @@ public class UpdateProjectModelControllerCompileOutput2Test
   private ProjectDTO projectDTO;
 
   @BeforeEach
-  public void setUpTest() {
+  public void setUpTest() throws JSONException {
     projectDTO = updateProjectModelController
         .call(ProjectModelDTOTestData.get(), ProjectTestData.PROJECT_NAME);
   }

@@ -2,6 +2,7 @@ package com.kodekonveyor.market.project;
 
 import static com.kodekonveyor.market.project.ProjectTestData.EXPECTED_AUTH_ERROR_FOR_UPDATE_PROJECT;
 
+import org.json.JSONException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -29,7 +30,7 @@ public class UpdateProjectModelControllerLoggingTest
 
   @Test
   @DisplayName("The call of the controller is logged")
-  void test() {
+  void test() throws JSONException {
     updateProjectModelController
         .call(ProjectModelDTOTestData.get(), ProjectTestData.PROJECT_NAME);
     Mockito.verify(logger)
@@ -38,7 +39,7 @@ public class UpdateProjectModelControllerLoggingTest
 
   @Test
   @DisplayName("Return of project DTO is logged")
-  void test1() {
+  void test1() throws JSONException {
     updateProjectModelController
         .call(ProjectModelDTOTestData.get(), ProjectTestData.PROJECT_NAME);
     Mockito.verify(logger).debug(
